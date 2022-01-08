@@ -1,16 +1,73 @@
 <!DOCTYPE HTML>
 <html>
-	<!--
-		(C) 2022 COINPILOT TECH.
-		ALL RIGHTS RESERVED.
-		LICENSED UNDER THE AGPL.
-		https://github.com/coinpilot-tech/coinpilot-tech.github.io
-	-->
-	<head>
-		<meta charset="utf-8">
-		<title>coinpilot tech</title>
-	</head>
-	<body>
-		<h1>under construction</h1>
-	</body>
+<!--
+    (c) 2022 coinpilot tech
+    all rights reserved, licensed under the agplv3.
+    https://github.com/coinpilot-tech/coinpilot-tech.github.io
+-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coinpilot tech</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- style -->
+    <style>
+        body {
+            color: white;
+            background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+            font-family: "Inter", -apple-system, "Helvetica", "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .center-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        .pane {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            height: 80vh;
+            width: 80vw;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .header {
+            font-weight: 600;
+            font-size: 3rem;
+            margin: 0;
+        }
+        .sub-header {
+            font-weight: 500;
+            font-size: 2rem;
+        }
+        .sub-sub-header {
+            font-size: 1.5rem;
+            display: block;
+        }
+        a {
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-container">
+        <div class="pane">
+            <h1 class="header">coinpilot tech</h1>
+            <h1 class="sub-header">we develop cutting edge software using decentralized public ledger technologies.</h1>
+            <h1 class="sub-sub-header"><a href="https://github.com/coinpilot-tech/coinpilot-tech.github.io" target="_blank">page source</a></h1>
+        </div>
+    </div>
+</body>
 </html>
